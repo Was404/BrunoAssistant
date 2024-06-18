@@ -6,6 +6,10 @@ namespace BrunoAssistant
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
-print("Bye, Wolrd!")
