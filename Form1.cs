@@ -8,3 +8,4 @@ namespace BrunoAssistant
         }
     }
 }
+print("Bye, Wolrd!")
